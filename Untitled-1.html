@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="php.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Excercie 1</h1>
+<p>Créer une fonction personnalisée convertirMajRouge()permettant de transformer une chaîne de caractère passée en argument en majuscules et en rouge.</p>
+
+<?php
+function convertirMajRouge($ch)
+
+{
+    $ch=strtoupper($ch);
+    echo "<p>$ch</p>";
+
+}
+convertirMajRouge("hello");
+?>
+    
+</body>
+</html>

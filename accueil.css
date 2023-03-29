@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color:#fdd116;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/*--------------------figurecaption-------------*/
+figcaption {
+    font-size: 1.5em;
+    text-align: center;
+}
+/* ------------------HEADER------------------- */
+
+img {
+    width: 100%;
+}
+
+figure .first {
+    background-color:#4c8dcd;
+    display: flex;
+    height: 40px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* ------------------Main------------------- */
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 8px;
+    padding: 14px;
+    padding-top: 32px;
+    padding-bottom: 17px;
+}
+h1 {
+    color: #fdd116;
+    padding-top: 20px;
+}
+/* ------------------Nav------------------- */
+
+nav {
+    
+    align-self: flex-start;
+}
+
+ul {
+    padding: 5px;
+    background-color: #4c8dcd;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: small;
+    width: 100px;
+    height: 135px;
+    align-items: center;
+}
+
+a {
+    color: white
+}
+/*------------------------paraghraph-----------------------*/
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*-----------------------------------asside----------------*/
+
+aside figure {
+    background-color: #4c8dcd;
+    padding: 10px;
+    color: white;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.realisateur {
+    width: 80%;
+    height: 21%;
+    /* padding: 15px; */
+    border: white 2px solid;
+    align-self: center;
+}
+.Matt{
+    font-size: 1.5em;
+    text-align: center;
+}
+.bio {
+    font-size: medium;
+}
+/* ------------------foooter------------------- */
+
+footer {
+    height: 40px;
+    color: white;
+    background-color: rgb(36, 101, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
